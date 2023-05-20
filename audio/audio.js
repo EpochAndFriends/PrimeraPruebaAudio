@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     gif.addEventListener("click", function() {
         gifIndex = (gifIndex + 1) % gifs.length;
-        gif.src = "/gif/" + gifs[gifIndex];
+        gif.src = "./gif/" + gifs[gifIndex];
 
         audio.currentTime = 0.1;
         audio.play();
